@@ -26,5 +26,3 @@ for cc in data_dict["Creditcards"]:
     #  Get the reply.
     message = socket.recv()
     print(f"Validation Processed:", message.decode())
-
-# 
