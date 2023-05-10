@@ -1,0 +1,59 @@
+{
+    "Creditcards":[
+    {
+        "ccissuer": "Visa",
+        "ccnumber": "4765 5432 6788 9876",
+        "expdate": "06/24"
+    },
+    {
+        "ccissuer": "Visa",
+        "ccnumber": "0765 5432 6788 9876",
+        "expdate": "06/24"
+    },
+    {
+        "ccissuer": "Visa",
+        "ccnumber": "4765 5432 6788 9876",
+        "expdate": "02/24"
+    },
+    {
+        "ccissuer": "Visa",
+        "ccnumber": "4765 5432 6788 9876",
+        "expdate": "06/34"
+    },
+    {
+        "ccissuer": "Visa",
+        "ccnumber": "4765 5432 6788 987",
+        "expdate": "06/19"
+    },
+    {
+        "ccissuer": "Mastercard",
+        "ccnumber": "4765 5432 6788 9876",
+        "expdate": "06/24"
+    },
+    {
+        "ccissuer": "Mastercard",
+        "ccnumber": "2765 5432 6788 9876",
+        "expdate": "06/24"
+    },
+    {
+        "ccissuer": "Discover",
+        "ccnumber": "6765 5432 6788 9876",
+        "expdate": "06/24"
+    },
+    {
+        "ccissuer": "Discover",
+        "ccnumber": "4765 5432 6788 9876",
+        "expdate": "06/24"
+    },
+    {
+        "ccissuer": "AmericanExpress",
+        "ccnumber": "3765 5432 6788 9876",
+        "expdate": "06/24"
+    },
+    {
+        "ccissuer": "AmericanExpress",
+        "ccnumber": "3765 5432 6788 987",
+        "expdate": "06/24"
+    }
+]
+}   
