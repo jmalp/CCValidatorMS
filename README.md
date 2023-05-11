@@ -4,6 +4,7 @@
 
 This contract states how to REQUEST and RECEIVE data from the Credi Card Validator Microservice.
 
+
 #### To **REQUEST** data from the microservice:
 
 - First, establish a connection to the microservice's socket by creating a ZMQ REQ socket and connecting it to the microservice's endpoint: socket = zmq.Context().socket(zmq.REQ) followed by socket.connect("tcp://<microservice-ip>:5555"). Replace <microservice-ip> with the IP address of the machine where the microservice is running. (In this case 'localhost')
