@@ -18,3 +18,6 @@
 - After sending the request, wait for the microservice's response by calling the recv method on the socket: `result = socket.recv()`
 - The response received from the microservice is a string in JSON format, which can be parsed to a Python dictionary using json.loads: `result_dict = json.loads(result)`
 - The result dictionary will contain a single key, which is the validation result as a string: `result_str = result_dict['result']`
+---
+ #### UML sequence diagram:
+ ![Sequence diagram](https://github.com/jmalp/CCValidatorMS/assets/75514361/190e2333-0e07-4ded-83e3-7a0ec1940bc2)
