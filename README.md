@@ -9,7 +9,8 @@
 - Finally, send the request to the microservice by calling the send method on the socket, passing the cc_info_json string as the argument: socket.send(cc_info_json)
  
  #### Example Call:
-![carbon](https://github.com/jmalp/CCValidatorMS/assets/75514361/c956ca81-6eb0-4767-8f89-286efafcab35)
+![carbon (1)](https://github.com/jmalp/CCValidatorMS/assets/75514361/52d8d28e-a470-491b-bb2d-38e8fe7c2cad)
+
  
 ---  
  #### To **RECEIVE** data from the microservice:
