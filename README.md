@@ -11,7 +11,7 @@
  #### Example Call:
 `import zmq
 import json
-
+ 
 context = zmq.Context()
 socket = context.socket(zmq.REQ)
 socket.connect("tcp://localhost:5555")
