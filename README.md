@@ -8,8 +8,8 @@
 - Next, prepare the credit card information to be validated by creating a dictionary with the required fields (ccissuer, ccnumber, and expdate) and convert it to a JSON string.
 - Finally, send the request to the microservice by calling the send method on the socket, passing the cc_info_json string as the argument: socket.send(cc_info_json)
  
- ##### Example Call:
- 'import zmq
+ #### Example Call:
+`import zmq
 import json
 
 context = zmq.Context()
@@ -23,7 +23,7 @@ socket.send(cc_info_json)
 result = socket.recv()
 result_dict = json.loads(result)
 result_str = result_dict['result']
-print(result_str)'
+print(result_str)`
 
 ---  
  #### To **RECEIVE** data from the microservice:
