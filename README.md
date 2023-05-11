@@ -9,27 +9,11 @@
 - Finally, send the request to the microservice by calling the send method on the socket, passing the cc_info_json string as the argument: socket.send(cc_info_json)
  
  #### Example Call:
-`import zmq
-import json
+![carbon](https://github.com/jmalp/CCValidatorMS/assets/75514361/c956ca81-6eb0-4767-8f89-286efafcab35)
  
-context = zmq.Context()
-socket = context.socket(zmq.REQ)
-socket.connect("tcp://localhost:5555")
-
-cc_info = {"ccissuer": "Visa", "ccnumber": "1234 5678 9012 3456", "expdate": "07/25"}
-cc_info_json = json.dumps(cc_info)
-socket.send(cc_info_json)
-
-result = socket.recv()
-result_dict = json.loads(result)
-result_str = result_dict['result']
-print(result_str)`
-
 ---  
  #### To **RECEIVE** data from the microservice:
 
-- After sending the request, wait for the microservice's response by calling the recv method on the socket: result = socket.recv()
-- The response received from the microservice is a string in JSON format, which can be parsed to a Python dictionary using json.loads: result_dict = json.loads(result)
-- The result dictionary will contain a single key, which is the validation result as a string: result_str = result_dict['result']
----
- 
+- After sending the request, wait for the microservice's response by calling the recv method on the socket: `result = socket.recv()`
+- The response received from the microservice is a string in JSON format, which can be parsed to a Python dictionary using json.loads: `result_dict = json.loads(result)`
+- The result dictionary will contain a single key, which is the validation result as a string: `result_str = result_dict['result']`
